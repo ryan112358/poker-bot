@@ -1,0 +1,18 @@
+This application consists of 4 separate projects:
+Pokerbot-GameState
+	- Contains classes that define GameState information
+	- Handles persistent hand data
+Pokerbot-Intelligence
+	Dependencies: Pokerbot-GameState
+	- Handles the artificial intelligence and decision making of poker situations
+Pokerbot-Parser
+	Dependencies: Pokerbot-GameState
+	- Handles parsing the data on the screen
+	- Contains methods to interract with windows on the screen
+Pokerbot-Manager
+	Dependencies: Pokerbot-GameState, Pokerbot-Intelligence, Pokerbot-Parser
+	- Provides an interface between the parser and the intelligence
+	
+Assumptions
+	- Player is sitting at the head of the table (in the bottom center seat)
+	- Tables are cascaded (or at the very least, you can access any table by clicking on it's header)
