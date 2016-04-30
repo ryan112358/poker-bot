@@ -8,5 +8,5 @@ An AI that can play poker and interface with common poker software.
 * Code tested and validated with Bovada poker software on Windows
 * Easy to make work with other poker sofware by adding configuration files
 * Must have poker software installed
-* Works only with play money blackjack right now
+* Works only with play money blackjack right now - guaranteed to make optimal decision under simple assumptions
 * Texas Hold'em is a work in progress
